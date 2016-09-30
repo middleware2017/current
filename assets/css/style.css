@@ -53,17 +53,17 @@ blockquote .paragraph-wrapper {
 
 body {
   -webkit-font-smoothing: antialiased;
-  background-color: #fff;
+  background-color: #fbfafa;
   color: #252525;
   font-family: 'Montserrat', 'Arial', sans-serif;
-  font-size: 12px;
+  font-size: 1.4em;
   height: 100%;
   overflow-x: hidden;
 }
 
 h1 {
   display: inline-block;
-  font-size: 36px;
+  font-size: 2.4em;
   margin-bottom: 35px;
   margin-top: 10px;
   position: relative;
@@ -81,7 +81,7 @@ h1:after {
 
 h2 {
   display: inline-block;
-  font-size: 24px;
+  font-size: 2em;
   margin-bottom: 35px;
   margin-top: 10px;
   position: relative;
@@ -2357,13 +2357,13 @@ th.header:before {
   position: relative;
 }
 .navigation-wrapper a {
-  color: #fff;
+  color: #ebe6e7;
 }
 .navigation-wrapper a:hover {
-  color: #ea6645;
+  color: #3A0A10; 
 }
 .navigation-wrapper .background {
-  background-color: #012951;
+  background-color: #000000;
   overflow: hidden;
 }
 .navigation-wrapper .secondary-navigation-wrapper {
@@ -2386,7 +2386,7 @@ th.header:before {
   padding: inherit;
 }
 .navigation-wrapper .secondary-navigation-wrapper ul li i {
-  color: #ea6645;
+  color: #3A0A10;
   margin-right: 5px;
 }
 .navigation-wrapper .secondary-navigation-wrapper .search {
@@ -2489,7 +2489,7 @@ th.header:before {
   padding: inherit;
 }
 .navigation-wrapper .primary-navigation-wrapper header nav .navbar-nav li a {
-  font-size: 14px;
+  font-size: 1.2em;
   padding: 10px;
   padding-left: 20px;
 }
@@ -2519,7 +2519,7 @@ th.header:before {
   top: 0px;
 }
 .navigation-wrapper .primary-navigation-wrapper header nav .navbar-nav li.active a {
-  color: #ea6645;
+  color: #ebe6e7; /* nav font color*/
 }
 .navigation-wrapper .primary-navigation-wrapper header nav .navbar-nav li:hover .child-navigation {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
@@ -2533,7 +2533,7 @@ th.header:before {
   -o-transition: 0.2s;
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  background-color: #011529;
+  background-color: #4d2227; /*dropdown backgroundmaroon shade:4d2227 dark blue:011529 */
   visibility: hidden;
   position: absolute;
   top: 45px;
@@ -2556,7 +2556,7 @@ th.header:before {
   white-space: nowrap;
 }
 .navigation-wrapper .primary-navigation-wrapper header nav .navbar-nav li .child-navigation li a:hover {
-  background-color: #ea6645;
+  background-color: #3A0A10; /* current = maroon, orange color=ea6645 */
   color: #fff;
 }
 .navigation-wrapper .primary-navigation-wrapper header nav .navbar-nav li .child-navigation li:first-child a:after {
@@ -2583,7 +2583,7 @@ th.header:before {
   top: -7px;
 }
 .navigation-wrapper .primary-navigation-wrapper header nav .navbar-nav li .child-navigation li:first-child a:hover:after {
-  border-color: transparent transparent #ea6645 transparent;
+  border-color: transparent transparent #3a0a10 transparent; /* drop down triangle color */
 }
 .navigation-wrapper .primary-navigation-wrapper header nav .navbar-nav li .child-navigation li:last-child {
   border: none;
@@ -3078,7 +3078,7 @@ label.error:before {
   margin: 0;
 }
 #page-footer #footer-top {
-  background-color: whitesmoke;
+  background-color: #fbfafa;
   margin-top: 30px;
   padding: 30px 0;
 }
@@ -3132,7 +3132,7 @@ label.error:before {
   background-color: #012951;
 }
 #page-footer #footer-bottom {
-  background-color: #012447;
+  background-color: #3a0a10; /* footer color */
   color: #fff;
   padding: 20px 0;
 }
@@ -3518,7 +3518,7 @@ label.error:before {
   width: 300px;
 }
 .page-microsite .navigation-wrapper .primary-navigation-wrapper {
-  background-color: #012951;
+  background-color: #5e383c; /* nav background color */
   padding: 10px 0px;
 }
 .page-microsite .navigation-wrapper .primary-navigation-wrapper .navbar {
@@ -3545,7 +3545,7 @@ label.error:before {
   padding: 5px 0;
 }
 .page-microsite #slider {
-  background-color: #011c38;
+  background-color: #3a0a10; /* slider background */
   padding-bottom: 30px;
   padding-top: 30px;
 }
@@ -4427,7 +4427,7 @@ ul.submission-list li {
 
 ul.topics-list li {
   color:#767676; /* set color of list item to a dark gray */
-	list-style:none; /* if you’re not already using a reset */
+  list-style:none; /* if you’re not already using a reset */
   padding:0;
 }
 
