@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+    <!-- Mirrored from acmsocc.github.io/2016/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Sep 2016 20:50:31 GMT -->
+    <!-- Added by HTTrack -->
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <!-- /Added by HTTrack -->
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/selectize.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/vanillabox/vanillabox.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+        <link rel="shortcut icon" href="assets/myfavicon.ico" type="image/x-icon">
+        <link rel="icon" href="assets/myfavicon.ico" type="image/x-icon">
+
+        <script language="JavaScript1.2">
+            var howOften = 4; //number often in seconds to rotate
+            var current = 0; //start the counter at 0
+            var ns6 = document.getElementById&&!document.all; //detect netscape 6
+            // place your images, text, etc in the array elements here
+            var items = new Array();
+            items[0]="<img alt='Las Vegas in Winter!' src='assets/img/vegas1.jpg' height='400' width='710' border='0'/>"; 
+            items[1]="<img alt='Las Vegas in Winter!' src='assets/img/vegas2.jpg' height='400' width='710' border='0'/>"; 
+            items[2]="<img alt='Las Vegas in Winter!' src='assets/img/vegas3.jpg' height='400' width='710' border='0'/>"; 
+            items[3]="<img alt='Las Vegas in Winter!' src='assets/img/vegas4.jpg' height='400' width='710' border='0'/>"; 
+
+            function rotater() {
+                document.getElementById("rotating_pics").innerHTML = items[current];
+                current = (current==items.length-1) ? 0 : current + 1;
+                setTimeout("rotater()",howOften*1000);
+            }
+
+            function rotater() {
+                if(document.layers)
+                {
+                    document.placeholderlayer.document.write(items[current]);
+                    document.placeholderlayer.document.close();
+                }
+                if(ns6)document.getElementById("rotating_pics").innerHTML=items[current]
+                    if(document.all)
+                        placeholderdiv.innerHTML=items[current];
+                        current = (current==items.length-1) ? 0 : current + 1; //increment or reset
+                        setTimeout("rotater()",howOften*1000);
+            }
+            window.onload=rotater;
+//-->
+</script>
+
+
+
+
+        <title>2017 ACM/IFIP/USENIX International Middleware Conference</title>
+    </head>
+    <body class="page-sub-page page-microsite">
+        <!-- Wrapper -->
+        <div class="wrapper">
+            <!-- Header -->
+            <div class="navigation-wrapper">
+                <div class="primary-navigation-wrapper">
+                    <header class="navbar" id="top" role="banner">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <nav class="collapse navbar-collapse bs-navbar-collapse navbar-left" role="navigation">
+                                <ul class="nav navbar-nav">
+                                    <li class="active">
+                                        <a href="index.html">Home</a>
+                                    </li>
+<!--                                    <li>
+                                        <a href="#" class="has-child no-link">Participation</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="camera-ready-instructions.html">Camera-ready instructions</a></li>
+                                            <li><a href="poster-instructions.html">Poster instructions</a></li>
+                                            <li><a href="scholarships.html">Student scholarships</a></li>
+                                            <li><a href="papers.html">Call for papers</a></li>
+                                            <li><a href="posters.html">Call for posters</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="has-child no-link">Conference attendees</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="registration.html">Registration</a></li>
+                                            <li><a href="visa.html">Visa support letters</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="has-child no-link">Program</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="schedule.html">Schedule</a></li>
+                                            <li><a href="keynotes.html">Keynote Speakers</a></li>
+                                            <li><a href="poster-sessions.html">Poster Sessions</a></li>
+                                        </ul>
+                                    </li> -->
+                                    <li>
+                                        <a href="#" class="has-child no-link">Organization</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="organizing-committee.html">Organizing Committee</a></li>
+                                            <li><a href="program-committee.php">Program Committee</a></li>
+                                        </ul>
+                                    </li>
+					
+				   <li>
+                                        <a href="#" class="has-child no-link">Calls</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="call-for-industry-track-paper.html"><s>Call for Industry Track Papers</s> (closed)</a></li>
+                                            <li><a href="workshops.html"><s>Call for Workshop Papers</s> (closed)</a></li>
+                                            <li><a href="call-for-doctoral-symposium-papers.html"><s>Call for Doctoral Symposium Papers</s> (closed)</a></li>
+                                            <li><a href="call-for-demos-and-posters.html"><s>Call for Demos and Posters</s> (closed)</a></li>
+                                            <li><a href="call-for-regular-papers.html"><s>Call for Regular Papers</s> (closed)</a></li>
+                                            <li><a href="call-for-workshop.html"><s>Call for Workshop Proposals</s> (closed)</a></li>
+                                            <li><a href="call-for-tutorial.html"><s>Call for Tutorial Proposals</s> (closed)</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="has-child no-link">Venue</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="about-lv.html">About Las Vegas</a></li>
+                                                <li><a href="conference-location.html">Conference Location</a></li>
+                                                <li><a href="travel.html">Travel</a></li>
+                                                <li><a href="accommodation.html">Accommodation</a></li>
+                                        </ul>
+                                    </li> 
+                                    <li>
+                                        <a href="#" class="has-child no-link">Program</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="keynotes.html">Keynotes</a></li>
+                                            <li><a href="tutorials.html">Tutorials</a></li>
+								 <li><a href="workshops.html">Workshops</a></li>
+    								 <li><a href="accepted.html">Accepted Papers</a></li>
+                                        </ul>
+                                    </li>
+
+
+			                        <li class="active">
+                                            <a href="grants.html">Travel Grants</a>
+                                        </li>
+
+
+			                        <li class="active">
+                                             <a href="#" class="has-child no-link">Registration</a>
+                                              <ul class="list-unstyled child-navigation">
+                                                <li><a href="registration.html">Fees</a></li>
+                                                <li><a href="visa-letters.html">Visa letters</a></li>
+                                            </ul>
+                                        </li>
+
+<!--                                    <li>
+                                        <a href="#" class="has-child no-link">Sponsorship</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="sponsors.html">Our sponsors</a></li>
+                                            <li><a href="becoming-sponsor.html">Becoming a sponsor</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="has-child no-link">Venue</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="location.html">Location</a></li>
+                                            <li><a href="accommodation.html">Accommodation</a></li>
+                                        </ul>
+                                    </li> -->
+                                </ul>
+                            </nav>
+                            <!-- /.navbar collapse-->
+                            <div class="social">
+<!--                                <div class="icons">
+                                    <a href="https://twitter.com/ACMSoCC2016"><i class="fa fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/socc2016"><i class="fa fa-facebook"></i></a>
+                                </div> -->
+                                <!-- /.icons -->
+                            </div>
+                        </div>
+                        <!-- /.container -->
+                    </header>
+                    <!-- /.navbar -->
+                </div>
+                <!-- /.primary-navigation -->
+            </div>
+            <!-- end Header -->
+            <div id="page-content">
+                <!-- Slider -->
+                <div id="slider">
+                    <div class="container">
+                        <div class="slider-wrapper">
+                            <div class="row">
+                                <div class="col-md-9 col-sm-12">
+                                    <div class="row">
+                                        <div class="image-carousel">
+                                            <div class="slide">
+                                                <div class="image-carousel-slide" id="rotating_pics"></div>
+                                            </div>
+                                            <!-- /.slide -->
+                                        </div>
+                                        <!-- /.image-carousel -->
+                                    </div>
+                                    <!-- /.row -->
+                                </div>
+                                <!-- /.col-md-9 -->
+                                <div class="col-md-3 col-sm-12">
+                                    <header>
+                                        <h2>ACM/IFIP/USENIX Middleware 2017</h2>
+                                        <h3 style="color:white">Las Vegas, Nevada</h3>
+                                        <h3 style="color:white">Dec 11-15, 2017</h3>
+                                    </header>
+                                </div>
+                                <!-- /.col-md-3 -->
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        <!-- /.slider-wrapper -->
+                    </div>
+                    <!-- /.container -->
+                </div>
+                <!-- end Slider -->
+                <!-- Content -->
+                <div class="block">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <section id="main-content">
+                                    <div class="section-content">
+                                        <header>
+
+<!--                                            
+<h3>Consolidated Call for Submissions (<a href="assets/MW17-Call-Consolidated.pdf" target="_blank">PDF</a>):</h3>
+-->
+<h3>Open Calls:</h3>
+
+                                        </header>
+                                        <p>The annual ACM/IFIP/USENIX Middleware conference is a major forum for the discussion of innovations and recent advances in the design, construction and use of middleware systems. Following the success of past conferences in this series, the 18th International Middleware Conference will be the premier event for middleware research, technology and experimentation in 2017. Highlights of the conference will include a high quality single-track technical program, invited speakers, an industrial track, panel discussions involving academic and industry leaders, poster and demonstration presentations, a doctoral symposium, and workshops.</p>
+
+<!--
+<hr>
+
+<header><h3><a href="http://2017.middleware-conference.org/call-for-regular-papers.html">CALL FOR RESEARCH TRACK PAPERS</a></h3></header>
+
+<p>The scope of the Middleware conference is the design, implementation, deployment, and evaluation of distributed system platforms and architectures for computing, storage, and communication environments. Detailed information on topics is available from the URLs above. Submitted research papers must have at most 12 pages of technical content, including text, figures, and appendices, but excluding any number of additional pages for bibliographic references. Note that submissions must be double-blind: authors' names must not appear, and authors must make a good faith attempt to anonymize their submissions.</p>
+				
+                                        <header><h3>Important Dates</h3></header>
+
+                                        <table width="70%">
+                                            <tr>
+                                                <td>Abstract submission:</td>
+                                                <td>May 12, 2017</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Paper submission:</td>
+                                                <td>May 19, 2017</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Notification of acceptance:</td>
+                                                <td>August 23, 2017</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Camera-ready due:</td>
+                                                <td>September 15, 2017</td> 
+                                            </tr>	
+                                        </table>
+
+
+<hr>
+
+<header><h3><a href="call-for-industry-track-paper.html">CALL FOR INDUSTRY TRACK PAPERS</a></h3></header>
+
+<p>The Industrial Track of the Middleware 2017 Conference solicits 6-page papers for presentation during the main conference (single track) and inclusion in the ACM Digital Library. The topics of interest are similar to those in the call for research papers. However, the purpose of the Industrial Track is to emphasize the practical issues, observations, and measurements of "real-world" systems and applications and to disseminate information of particular interest to Middleware researchers, architects, developers and administrators.</p>
+				
+                                        <header><h3>Important Dates</h3></header>
+
+                                        <table width="70%">
+                                            <tr>
+                                                <td>Abstract submission:</td>
+                                                <td>August 11, 2017</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Paper submission:</td>
+                                                <td>August 18, 2017</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Notification of acceptance:</td>
+                                                <td>September 30, 2017</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Camera-ready due:</td>
+                                                <td>October 27, 2017</td> 
+                                            </tr>	
+                                        </table>
+
+
+
+-->
+
+
+
+<!--
+<hr>
+
+<header><h3><a href="http://2017.middleware-conference.org/call-for-workshop.html">CALL FOR WORKSHOP PROPOSALS</a></h3></header>
+
+<p>We invite experts on related research areas to submit one-day or half-day workshop proposals within the scope of Middleware 2017. Proposed workshops can be on any topic related to middleware, but we are particularly interested in new workshops in emerging areas.</p>
+				
+                                        <header><h3>Important Dates</h3></header>
+
+                                        <table width="70%">
+                                            <tr>
+                                                <td>Workshop Proposal Submission Deadline:</td>
+                                                <td>May 17, 2017</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Workshop Proposal Acceptance Notification:</td>
+                                                <td>May 24, 2017</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Workshop Calls for Papers Online:</td>
+                                                <td>June 15, 2017</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Approximate Workshop Paper Submission Deadline:</td>
+                                                <td>August 31, 2017</td> 
+                                            </tr>	
+                                            <tr>
+                                                <td>Workshop Paper Notification:</td>
+                                                <td>September 28, 2017</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Workshop Paper Camera Ready (Hard Deadline):</td>
+                                                <td>October 20, 2017</td> 
+                                            </tr>	
+                                        </table>
+
+
+
+
+<hr>
+
+<header><h3><a href="http://2017.middleware-conference.org/call-for-tutorial.html">CALL FOR TUTORIALS</a></h3></header>
+
+<p>The Middleware conference traditionally includes tutorials given by renowned scientists and practitioners in their fields. We welcome tutorials on both mature and emerging topics. Tutorials may be lectures, interactive workshops, hands-on training, or any combination of the above. We especially welcome cross-disciplinary topics and innovative ways of interacting with the audience.</p>
+				
+                                        <header><h3>Important Dates</h3></header>
+
+                                        <table width="70%">
+                                            <tr>
+                                                <td>Tutorial Proposals Deadline:</td>
+                                                <td>June 15, 2017</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Notification of Acceptance/Rejection:</td>
+                                                <td>July 15, 2017</td> 
+                                            </tr>
+                                        </table>
+
+-->
+
+
+<hr>
+
+<header><h3><a href="workshops.html">CALL FOR WORKSHOP PAPERS</a></h3></header>
+
+<p>As with previous Middleware conferences, Middleware 2017 will host a number of high quality workshops! All workshops are now accepting submissions. Please refer to the <a href="workshops.html">workshops page</a> for submission deadlines, topics, and contact information.</p>
+
+
+
+
+
+
+<hr>
+
+
+
+<header><h3><a href="call-for-demos-and-posters.html">CALL FOR DEMOS AND POSTERS</a></h3></header>
+
+<p>Middleware 2017 will provide a forum for live software demonstrations and innovative work in progress posters of middleware applications, systems, and tools. Demos could take a wide and open-ended variety of forms, and are encouraged for both early prototypes and mature technology. Poster sessions will provide an informal setting for presenters to communicate ideas or results and also to collect feedback from attendees.</p>
+				
+                                        <header><h3>Important Dates</h3></header>
+
+                                        <table width="70%">
+                                            <tr>
+                                                <td>Submission deadline:</td>
+                                                <td>September 16, 2017</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Notification of acceptance:</td>
+                                                <td>October 2, 2017</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Camera ready due:</td>
+                                                <td>October 15, 2017</td> 
+                                            </tr>
+                                        </table>
+
+
+
+
+
+
+<hr>
+
+<header><h3><a href="call-for-doctoral-symposium-papers.html">CALL FOR DOCTORAL SYMPOSIUM PAPERS</a></h3></header>
+
+<p>The doctoral symposium will provide an informal and welcoming atmosphere in which early- and late-stage Ph.D. students will have the opportunity to discuss their planned goals, their progress and achievements, the key research challenges to overcome, as well as software and tools they are developing. Participating students will receive valuable feedback from senior researchers and experts from both industry and academia. The symposium will also be an opportunity for meeting and sharing experiences with other Ph.D. students who are addressing similar topics.</p>
+				
+                                        <header><h3>Important Dates</h3></header>
+
+                                        <table width="70%">
+                                            <tr>
+                                                <td>Paper submission deadline:</td>
+                                                <td>September 25, 2017</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Notification of acceptance:</td>
+                                                <td>October 9, 2017</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Camera ready due:</td>
+                                                <td>October 16, 2017</td> 
+                                            </tr>
+                                        </table>
+
+
+
+
+
+
+
+
+                                    </div>
+                                    <!-- /.section-content -->
+                                </section>
+                                <!-- /.main-content -->
+                            </div>
+                            <!-- /.col-md-6 -->
+
+
+                                        <div class="col-md-2">
+                                            <a class="twitter-timeline"
+                                              href="https://twitter.com/middleware2017" data-height="60em" data-chrome="transparent noborders">
+                                            Tweets by @middleware2017
+                                            </a>                                            
+                                        </div>
+
+
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.container -->
+                </div>
+                <!-- end Content -->
+            </div>
+            <!-- Footer -->
+            <footer id="page-footer">
+                <section id="footer-top">
+                    <div class="container">
+                        <div class="footer-inner">
+<!--                            <div class="footer-social">
+                                <figure>Follow us:</figure>
+                                <div class="icons">
+                                    <a href="https://twitter.com/ACMSoCC2016"><i class="fa fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/socc2016"><i class="fa fa-facebook"></i></a>
+                                </div> 
+                            </div> -->
+                            <!-- /.social -->
+                        </div>
+                        <!-- /.footer-inner -->
+                    </div>
+                    <!-- /.container -->
+                </section>
+                <!-- /#footer-top -->
+                <section id="footer-bottom">
+                    <div class="container">
+                        <div class="footer-inner">
+                            <div class="copyright"></div>
+                            <!-- /.copyright -->
+                        </div>
+                        <!-- /.footer-inner -->
+                    </div>
+                    <!-- /.container -->
+                </section>
+                <!-- /#footer-bottom -->
+            </footer>
+            <!-- end Footer -->
+        </div>
+    </body>
+    <script type="text/javascript" src="assets/js/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/selectize.min.js"></script>
+    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="assets/js/jQuery.equalHeights.js"></script>
+    <script type="text/javascript" src="assets/js/icheck.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.vanillabox-0.1.5.min.js"></script>
+    <script type="text/javascript" src="assets/js/retina-1.1.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<!--    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-39874729-4', 'auto');
+        ga('send', 'pageview');
+    </script> -->
+    <!-- Mirrored from acmsocc.github.io/2016/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Sep 2016 20:50:49 GMT -->
+</html>

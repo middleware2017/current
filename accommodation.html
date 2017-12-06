@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <!-- /Added by HTTrack -->
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/selectize.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/vanillabox/vanillabox.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+        <link rel="shortcut icon" href="assets/myfavicon.ico" type="image/x-icon">
+        <link rel="icon" href="assets/myfavicon.ico" type="image/x-icon">
+
+        <script language="JavaScript1.2">
+            var howOften = 4; //number often in seconds to rotate
+            var current = 0; //start the counter at 0
+            var ns6 = document.getElementById&&!document.all; //detect netscape 6
+            // place your images, text, etc in the array elements here
+            var items = new Array();
+            items[0]="<img alt='Las Vegas in Winter!' src='assets/img/vegas1.jpg' height='400' width='710' border='0'/>"; 
+            items[1]="<img alt='Las Vegas in Winter!' src='assets/img/vegas2.jpg' height='400' width='710' border='0'/>"; 
+            items[2]="<img alt='Las Vegas in Winter!' src='assets/img/vegas3.jpg' height='400' width='710' border='0'/>"; 
+            items[3]="<img alt='Las Vegas in Winter!' src='assets/img/vegas4.jpg' height='400' width='710' border='0'/>"; 
+
+            function rotater() {
+                document.getElementById("rotating_pics").innerHTML = items[current];
+                current = (current==items.length-1) ? 0 : current + 1;
+                setTimeout("rotater()",howOften*1000);
+            }
+
+            function rotater() {
+                if(document.layers)
+                {
+                    document.placeholderlayer.document.write(items[current]);
+                    document.placeholderlayer.document.close();
+                }
+                if(ns6)document.getElementById("rotating_pics").innerHTML=items[current]
+                    if(document.all)
+                        placeholderdiv.innerHTML=items[current];
+                        current = (current==items.length-1) ? 0 : current + 1; //increment or reset
+                        setTimeout("rotater()",howOften*1000);
+            }
+            window.onload=rotater;
+//-->
+</script>
+
+
+
+
+        <title>2017 ACM/IFIP/USENIX International Middleware Conference</title>
+    </head>
+    <body class="page-sub-page page-microsite">
+        <!-- Wrapper -->
+        <div class="wrapper">
+            <!-- Header -->
+            <div class="navigation-wrapper">
+                <div class="primary-navigation-wrapper">
+                    <header class="navbar" id="top" role="banner">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <nav class="collapse navbar-collapse bs-navbar-collapse navbar-left" role="navigation">
+                                <ul class="nav navbar-nav">
+                                    <li class="active">
+                                        <a href="index.html">Home</a>
+                                    </li>
+<!--                                    <li>
+                                        <a href="#" class="has-child no-link">Participation</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="camera-ready-instructions.html">Camera-ready instructions</a></li>
+                                            <li><a href="poster-instructions.html">Poster instructions</a></li>
+                                            <li><a href="scholarships.html">Student scholarships</a></li>
+                                            <li><a href="papers.html">Call for papers</a></li>
+                                            <li><a href="posters.html">Call for posters</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="has-child no-link">Conference attendees</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="registration.html">Registration</a></li>
+                                            <li><a href="visa.html">Visa support letters</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="has-child no-link">Program</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="schedule.html">Schedule</a></li>
+                                            <li><a href="keynotes.html">Keynote Speakers</a></li>
+                                            <li><a href="poster-sessions.html">Poster Sessions</a></li>
+                                        </ul>
+                                    </li> -->
+                                    <li>
+                                        <a href="#" class="has-child no-link">Organization</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="organizing-committee.html">Organizing Committee</a></li>
+                                            <li><a href="program-committee.php">Program Committee</a></li>
+                                        </ul>
+                                    </li>
+					
+				   <li>
+                                        <a href="#" class="has-child no-link">Calls</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="call-for-industry-track-paper.html"><s>Call for Industry Track Papers</s> (closed)</a></li>
+                                            <li><a href="workshops.html"><s>Call for Workshop Papers</s> (closed)</a></li>
+                                            <li><a href="call-for-doctoral-symposium-papers.html"><s>Call for Doctoral Symposium Papers</s> (closed)</a></li>
+                                            <li><a href="call-for-demos-and-posters.html"><s>Call for Demos and Posters</s> (closed)</a></li>
+                                            <li><a href="call-for-regular-papers.html"><s>Call for Regular Papers</s> (closed)</a></li>
+                                            <li><a href="call-for-workshop.html"><s>Call for Workshop Proposals</s> (closed)</a></li>
+                                            <li><a href="call-for-tutorial.html"><s>Call for Tutorial Proposals</s> (closed)</a></li>
+                                        </ul>
+                                    </li>
+
+<!--                                    <li>
+                                        <a href="#" class="has-child no-link">Sponsorship</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="sponsors.html">Our sponsors</a></li>
+                                            <li><a href="becoming-sponsor.html">Becoming a sponsor</a></li>
+                                        </ul>
+                                    </li>
+ -->
+                                    <li>
+                                        <a href="#" class="has-child no-link">Venue</a>
+                                        <ul class="list-unstyled child-navigation">
+                                            <li><a href="about-lv.html">About Las Vegas</a></li>
+                                                <li><a href="conference-location.html">Conference Location</a></li>
+                                                <li><a href="travel.html">Travel</a></li>
+                                                <li><a href="accommodation.html">Accommodation</a></li>
+                                        </ul>
+                                    </li> 
+
+                                    <li>
+                                            <a href="#" class="has-child no-link">Program</a>
+                                            <ul class="list-unstyled child-navigation">
+                                                <li><a href="overview.html">Overview</a></li>
+                                                <li><a href="keynotes.html">Keynotes</a></li>
+                                                <li><a href="tutorials.html">Tutorials</a></li>
+    								     <li><a href="workshops.html">Workshops</a></li>
+    								     <li><a href="accepted.html">Accepted Papers</a></li>
+    								     <li><a href="posters.html">Demos & Posters</a></li>
+    								     <li><a href="doctoral.html">Doctoral Symposium</a></li>
+    								     <li><a href="social.html">Social Events</a></li>
+                                            </ul>
+                                        </li>
+
+			                        <li class="active">
+                                            <a href="grants.html">Travel Grants</a>
+                                        </li>
+
+
+			                        <li class="active">
+                                             <a href="#" class="has-child no-link">Registration</a>
+                                              <ul class="list-unstyled child-navigation">
+                                                <li><a href="registration.html">Fees</a></li>
+                                                <li><a href="visa-letters.html">Visa letters</a></li>
+                                            </ul>
+                                        </li>
+                                </ul>
+                            </nav>
+                            <!-- /.navbar collapse-->
+                            <div class="social">
+<!--                                <div class="icons">
+                                </div> -->
+                                <!-- /.icons -->
+                            </div>
+                        </div>
+                        <!-- /.container -->
+                    </header>
+                    <!-- /.navbar -->
+                </div>
+                <!-- /.primary-navigation -->
+            </div>
+            <!-- end Header -->
+            <div id="page-content">
+                <!-- Slider -->
+                <div id="slider">
+                    <div class="container">
+                        <div class="slider-wrapper">
+                            <div class="row">
+                                <div class="col-md-9 col-sm-12">
+                                    <div class="row">
+                                        <div class="image-carousel">
+                                            <div class="slide">
+                                                <div class="image-carousel-slide" id="rotating_pics"></div>
+                                            </div>
+                                            <!-- /.slide -->
+                                        </div>
+                                        <!-- /.image-carousel -->
+                                    </div>
+                                    <!-- /.row -->
+                                </div>
+                                <!-- /.col-md-9 -->
+                                <div class="col-md-3 col-sm-12">
+                                    <header>
+                                        <h2>ACM/IFIP/USENIX Middleware 2017</h2>
+                                        <h3 style="color:white">Las Vegas, Nevada</h3>
+                                        <h3 style="color:white">Dec 11-15, 2017</h3>
+                                    </header>
+                                </div>
+                                <!-- /.col-md-3 -->
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        <!-- /.slider-wrapper -->
+                    </div>
+                    <!-- /.container -->
+                </div>
+                <!-- end Slider -->
+                <!-- Content -->
+                <div class="block">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <section id="main-content">
+                                    <div class="section-content">
+                                            <header>
+                                                <h2>Accommodation</h2>
+                                            </header>
+
+
+<p>We have reserved a block of rooms for attendees during the week of the conference at the <a href="http://embassysuites3.hilton.com/en/hotels/nevada/embassy-suites-by-hilton-las-vegas-LASESES/index.html" target="blank">Embassy Suites by Hilton Las Vegas</a>. The ACM negotiated rate is $109 + applicable taxes for a single rate (1 King) and $129 + applicable taxes for a double rate (2 full sized beds), and is only available till November 10, 2017. Some of the useful features of this accommodation include:
+<ul>
+<li>The hotel is located at 4315 Swenson Street, Las Vegas, Nevada, 89119, and is only about 1 mile (or 1.6 kms) from the conference venue, the <a href="https://www.unlv.edu/studentunion" target="blank">Student Union of the University of Nevada, Las Vegas</a> (UNLV). See the 1st map below for walking directions from the hotel to the conference.</li>
+<li>We will also be arranging a shuttle for transportation between Embassy Suites and the Conference Venue in the morning and in the evening.</li>
+<li>Complimentary self parking is available.</li>
+<li>The hotel is about 2 miles from the LAS airport. The taxi fare should be about $10-15. See the 2nd map below for driving directions from the airport to the hotel.</li>
+<li>The negotiated rate includes full cooked-to-order breakfast.</li>
+<li>Nightly reception from 5:30-7:30pm including snacks.</li>
+<li>All negotiated rooms are two-room suites.</li>
+<li>Hotel provides shuttle transportation to and from the Las Vegas strip.</li>
+</ul>
+
+Availability might be limited and Las Vegas is a popular venue year-round, so we advise you to book your accommodation as early as possible. To make your reeservation, you can either:
+<ul>
+<li><a href="https://secure3.hilton.com/en_US/es/reservation/book.htm?inputModule=HOTEL&ctyhocn=LASESES&spec_plan=CESMID&arrival=20171209&departure=20171216&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT"><strong>Reserve your room online at the ACM rate by clicking here</strong></a>, or</li>
+<li>Call the hotel directly at 702-795-2800 or 1-800-EMBASSY and identify yourself as an attendee of Middleware 2017.</li>
+</ul>
+</p>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d6446.924085326379!2d-115.15078752624595!3d36.10659966422837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x80c8c500d8539c45%3A0xdaef7de703887603!2sStudent+Union+%26+Event+Services%2C+4505+S+Maryland+Pkwy%2C+Paradise%2C+NV+89154!3m2!1d36.105973299999995!2d-115.13849809999999!4m5!1s0x80c8c452529f6763%3A0xedde3803b8d348b9!2sEmbassy+Suites+by+Hilton+Las+Vegas%2C+Swenson+Street%2C+Las+Vegas%2C+NV!3m2!1d36.110912!2d-115.15123229999999!5e0!3m2!1sen!2sus!4v1505151096348" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<br><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m24!1m8!1m3!1d25790.667269379002!2d-115.1673247!3d36.0975488!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x80c8c59f1f049c5d%3A0x471359241ec41e1e!2sMcCarran+International+Airport%2C+5757+Wayne+Newton+Blvd%2C+Las+Vegas%2C+NV+89119!3m2!1d36.0839998!2d-115.1537389!4m5!1s0x80c8c452529f6763%3A0xedde3803b8d348b9!2sEmbassy+Suites+by+Hilton+Las+Vegas%2C+Swenson+Street%2C+Las+Vegas%2C+NV!3m2!1d36.110912!2d-115.15123229999999!5e0!3m2!1sen!2sus!4v1505158029846" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+
+
+
+                                    </div>
+                                    <!-- /.section-content -->
+                                </section>
+                                <!-- /.main-content -->
+                            </div>
+                            <!-- /.col-md-6 -->
+
+
+
+
+
+                                        <div class="col-md-2">
+                                            <a class="twitter-timeline"
+                                              href="https://twitter.com/middleware2017" data-height="40em" data-chrome="transparent noborders">
+                                            Tweets by @middleware2017
+                                            </a>                                            
+                                        </div>
+
+
+
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.container -->
+                </div>
+                <!-- end Content -->
+            </div>
+            <!-- Footer -->
+            <footer id="page-footer">
+                <section id="footer-top">
+                    <div class="container">
+                        <div class="footer-inner">
+<!--                            <div class="footer-social">
+                                <figure>Follow us:</figure>
+                                <div class="icons">
+                                </div> 
+                            </div> -->
+                            <!-- /.social -->
+                        </div>
+                        <!-- /.footer-inner -->
+                    </div>
+                    <!-- /.container -->
+                </section>
+                <!-- /#footer-top -->
+                <section id="footer-bottom">
+                    <div class="container">
+                        <div class="footer-inner">
+                            <div class="copyright"></div>
+                            <!-- /.copyright -->
+                        </div>
+                        <!-- /.footer-inner -->
+                    </div>
+                    <!-- /.container -->
+                </section>
+                <!-- /#footer-bottom -->
+            </footer>
+            <!-- end Footer -->
+        </div>
+    </body>
+    <script type="text/javascript" src="assets/js/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/selectize.min.js"></script>
+    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="assets/js/jQuery.equalHeights.js"></script>
+    <script type="text/javascript" src="assets/js/icheck.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.vanillabox-0.1.5.min.js"></script>
+    <script type="text/javascript" src="assets/js/retina-1.1.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<!--    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-39874729-4', 'auto');
+        ga('send', 'pageview');
+    </script> -->
+
+</html>
